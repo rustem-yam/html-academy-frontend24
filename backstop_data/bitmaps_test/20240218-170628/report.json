@@ -1,0 +1,80 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_11.png",
+        "test": "..\\bitmaps_test\\20240218-170628\\accordeon_11.png",
+        "selector": "document",
+        "fileName": "accordeon_11.png",
+        "label": "accordeon 1.1",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\yamal\\Coding\\html-academy\\frontend2024\\task-js\\component-1\\index.html?tabs_limit=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 59.796018735363,
+          "misMatchPercentage": "59.80",
+          "analysisTime": 125
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-170628\\failed_diff_accordeon_11.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_12.png",
+        "test": "..\\bitmaps_test\\20240218-170628\\accordeon_12.png",
+        "selector": "document",
+        "fileName": "accordeon_12.png",
+        "label": "accordeon 1.2",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\yamal\\Coding\\html-academy\\frontend2024\\task-js\\component-1\\index.html?tabs_limit=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 38.74104215456675,
+          "misMatchPercentage": "38.74",
+          "analysisTime": 138
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-170628\\failed_diff_accordeon_12.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-js\\component-1\\reference\\accordeon_13.png",
+        "test": "..\\bitmaps_test\\20240218-170628\\accordeon_13.png",
+        "selector": "document",
+        "fileName": "accordeon_13.png",
+        "label": "accordeon 1.3",
+        "misMatchThreshold": 4,
+        "url": "file://C:\\Users\\yamal\\Coding\\html-academy\\frontend2024\\task-js\\component-1\\index.html?tabs_limit=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 30.391510538641686,
+          "misMatchPercentage": "30.39",
+          "analysisTime": 102
+        },
+        "diffImage": "..\\bitmaps_test\\20240218-170628\\failed_diff_accordeon_13.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

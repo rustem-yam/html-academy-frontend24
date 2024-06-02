@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru" data-validate="html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cook-Tour" />
+    <title>Cook-Tour</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header data-test="header" class="header">
+      <!-- Шапка -->
+      <nav class="header__nav">
+        <picture class="nav__logo">
+          <source
+            media="(min-width: 376px)"
+            srcset="img/logo.png 275w"
+            sizes="275px"
+          />
+          <source
+            media="(max-width: 375px)"
+            srcset="img/logo-sm.png 114w"
+            sizes="114px"
+          />
+          <img
+            src="img/logo-sm.png"
+            width="275px"
+            height="50px"
+            alt="Cook-Tour Logo"
+          />
+        </picture>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Гастротуры</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Бронирование</a>
+          </li>
+          <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Фотографии</a>
+          </li>
+          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+        </ul>
+        <div class="nav__phone">
+          <a href="tel">8 800 725-32-32</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section data-test="hero">
+        <!-- Hero -->
+      </section>
+      <section data-test="events">
+        <!-- События -->
+      </section>
+      <section data-test="form">
+        <!-- Форма -->
+      </section>
+      <section data-test="learning">
+        <!-- Обучение -->
+      </section>
+      <section data-test="about">
+        <!-- О нас -->
+      </section>
+      <section data-test="gallery">
+        <!-- Галерея -->
+      </section>
+      <section data-test="contacts">
+        <!-- Контакты -->
+      </section>
+    </main>
+    <footer data-test="footer">
+      <!-- Подвал -->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\..\\test-example\\reference\\header-desktop.png",
+        "test": "..\\bitmaps_test\\20240216-191701\\header-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-desktop.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 5,
+        "url": "file://C:\\Users\\yamal\\Coding\\html-academy\\frontend2024\\task-example\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8277936055713834,
+          "misMatchPercentage": "0.83",
+          "analysisTime": 35
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-example\\reference\\main-desktop.png",
+        "test": "..\\bitmaps_test\\20240216-191701\\main-desktop.png",
+        "selector": "[data-test=\"main\"]",
+        "fileName": "main-desktop.png",
+        "label": "main",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 5,
+        "url": "file://C:\\Users\\yamal\\Coding\\html-academy\\frontend2024\\task-example\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.21139398363597653,
+          "misMatchPercentage": "0.21",
+          "analysisTime": 86
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\..\\test-example\\reference\\footer-desktop.png",
+        "test": "..\\bitmaps_test\\20240216-191701\\footer-desktop.png",
+        "selector": "[data-test=\"footer\"]",
+        "fileName": "footer-desktop.png",
+        "label": "footer",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 5,
+        "url": "file://C:\\Users\\yamal\\Coding\\html-academy\\frontend2024\\task-example\\index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8757183908045977,
+          "misMatchPercentage": "0.88",
+          "analysisTime": 72
+        }
+      },
+      "status": "pass"
+    }
+  ]
+}
